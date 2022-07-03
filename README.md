@@ -1,8 +1,10 @@
 # School_District_Analysis
-Analyze student funding and the relationship to standardized test scores using Python, Jupyter Notebooks and Pandas.
+An analysis of student funding and the relationship to standardized test score outcomes using Python, Jupyter Notebooks and Pandas.
 
 # Overview 
-The purpose of this analysis is to determine the relationship between funding and student performance outcomes in math and reading for a school district containing 15 high schools. Upon completion of an initial analysis of the school district, the findings were as follows:
+The purpose of this analysis is to determine the relationship between funding and student performance outcomes in math and reading for a school district containing 15 high schools. 
+
+Upon completion of an initial analysis of the school district data, the findings were as follows:
 
 - Total number of students : 39,170
 - Total number of schools : 15
@@ -13,19 +15,11 @@ The purpose of this analysis is to determine the relationship between funding an
 - Percentage of students who passed reading : 86% 
 - Overall passing percentage : 65%
 
-<img width="527" alt="image" src="https://user-images.githubusercontent.com/104729703/177031207-0511b807-f38c-4ac3-ad6f-550ff3043bc8.png">
-- The initial analysis performed upon each school in the district showed that the top five highest-performing schools based on the highest % Overall Passing grades in math and reading were charter schools with a low student population (see above). Conversely, the lowest-performing schools were those with a high student population.
+- The initial analysis performed upon each school in the district showed that the top five highest-performing schools based on the highest % Overall Passing grades in math and reading were charter schools with a low student population. Conversely, the lowest-performing schools were those with a high student population.
 
+- The initial analysis also found that for test scores based on funding per student, schools with the least amount of funding performed consistently better than those with more funding.
 
-
-<img width="626" alt="image" src="https://user-images.githubusercontent.com/104729703/177031475-da90d45c-2ce8-4b39-8631-b62a55dd2f9a.png">
-- The visualization above shows the findings of our initial analysis of test scores based on funding per student. Schools with the least amount of funding performed consistently better than those with more funding.
-
-
-
-<img width="637" alt="Scores_By_School_Size_Initial" src="https://user-images.githubusercontent.com/104729703/177031677-9ee1ee3d-ebdb-4a6f-8b9f-37b5d8888a76.png">
-- The visualization above of the anlysis of test scores based on school size reveals that medium-sized schools performed best of the population sizes, and did better than schools with small populations by a very narrow margin.
-
+- The initial analysis of test scores based on school size revealed that medium-sized schools performed best of the school population sizes, and did better than schools with small populations by a very narrow margin.
 
 Following the discovery that reading and math scores by ninth graders at Thomas High School were to be discounted due to academic dishonesty, the school district analysis was repeated, with these scores omitted from the data. The results of this second analysis are explained below.
 
@@ -57,6 +51,8 @@ RIGHT HERE
 
 
 # Summary: 
+Four changes that have become evident since the replacement of the data are: 
+
 Summarize four changes in the updated school district analysis after reading and math scores for the ninth grade at Thomas High School have been replaced with NaNs.
 
 Deliverable 3 Requirements
@@ -70,22 +66,14 @@ Analysis (18 points)
 The written analysis has the following:
 
 Overview of the school district analysis:
-
 The purpose of this analysis is well defined (3 pt).
 Results:
-
 There is a bulleted list that addresses how each of the seven school district metrics was affected by the changes in the data (10 pt).
 Summary:
-
 There is a statement summarizing four changes to the school district analysis after reading and math scores have been replaced (5 pt).
-Submission
-Once you’re ready to submit, make sure to check your work against the rubric to ensure you are meeting the requirements for this Challenge one final time. It’s easy to overlook items when you’re in the zone!
 
-As a reminder, the deliverables for this Challenge are as follows:
 
-Deliverable 1: Replace ninth-grade reading and math scores
-Deliverable 2: Repeat the school district analysis
-Deliverable 3: A written report for the school district analysis (README.md)
+
 Upload the following to your School_District_Analysis GitHub repository:
 
 The PyCitySchools_Challenge.ipynb file.
