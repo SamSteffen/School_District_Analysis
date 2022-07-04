@@ -26,56 +26,39 @@ Following the discovery that reading and math scores by ninth graders at Thomas 
 # Results: 
 The second anaylsis of the school district data with the math and reading scores of 9th graders at Thomas High School omitted affected our data in the following ways:
 
-<img width="587" alt="image" src="https://user-images.githubusercontent.com/104729703/177032365-1bd14dff-403c-47d3-9559-8c73a6e3393a.png">
-<img width="703" alt="image" src="https://user-images.githubusercontent.com/104729703/177032716-9b8413f2-0688-4643-8bbf-76d7e726a53a.png">
+<img width="566" alt="image" src="https://user-images.githubusercontent.com/104729703/177062469-140d9cfc-09fc-402d-836e-a9018ac6a436.png">
 
-- The tables above represent the two school district summaries, the first with the Thomas High School ninth grade scores included, the second without. The comparison reveals that the omission of Thomas High School ninth grade math and reading scores affects the overall district data hardly at all. The size of the student population is affected, but the overall passing grades in math and reading decline by only a tenth of a percent. 
+<img width="563" alt="Refactored_District_Summary" src="https://user-images.githubusercontent.com/104729703/177062406-2d7c48af-bce4-407e-82fb-58a40380b30a.png">
+- The tables above represent the two school district summaries, the first with the Thomas High School ninth grade scores included, the second without. The comparison reveals that the omission of Thomas High School ninth grade math and reading scores affects the overall district data hardly at all. The size of the student population remains the same becuase the students are still included despite their scores being omitted, but the overall passing grades in math and reading decline by only a tenth of a percent. 
 
+<img width="193" alt="image" src="https://user-images.githubusercontent.com/104729703/177065453-6de9d14e-29a1-4715-b5a6-5bd2a4e93dd9.png"> <img width="194" alt="image" src="https://user-images.githubusercontent.com/104729703/177067184-7d7cdd52-7aad-4ddd-a145-6cf8e30334ae.png">
 
-RIGHT HERE
-- While the impact of the omission of Thomas High School ninth graders' math and reading scores from the overall school district data is slight, omission of Thomas High School ninth grade math and reading scores significantly improves Thomas High School's overall performance, relative to other schools. 
+- The impact of the omission of Thomas High School ninth graders' math and reading scores from the school data is more dramatic, especially for the math scores. While the original school comparison (pictured above, left) showed a 97% passing grade for Thomas High School students in reading, the new average for Thomas High School with the freshman scores omitted (pictured above, right) is roughly 70%, a considerable decrease. Math scores also decrease with the omission of the freshman data, from 93% passing to 66% passing, as the overall passing percentage for both math and reading decreases 91% to 65%.
 
-- Math and reading scores by grade
+<img width="186" alt="image" src="https://user-images.githubusercontent.com/104729703/177063503-f74e85e2-2384-404e-9e5c-e3f776c3b592.png"><img width="185" alt="image" src="https://user-images.githubusercontent.com/104729703/177063776-eb93780f-4416-4bc2-95ac-174e659677d6.png">
 
-<img width="626" alt="Scores_By_Spending_Per_Student_original" src="https://user-images.githubusercontent.com/104729703/177033739-1f554b24-61cd-4f93-9691-f77778fe0bf9.png">
-<img width="498" alt="Scores_By_Spending_Per_Student" src="https://user-images.githubusercontent.com/104729703/177033731-7a279a66-7d96-4ac4-a61f-03c568f207e0.png">
-- Scores by school spending
+- In the ranking of math and reading scores by grade (shown above) the refactored analysis reveals a data hole for the ninth graders at Thomas High School. This could present issues for the school if the data were sorted by grade and funding determined by performance outcomes. The absence of data could be interpreted as a zero in a ranking, and so would place the school last for freshman scoring outcomes.
+
+<img width="499" alt="image" src="https://user-images.githubusercontent.com/104729703/177068131-469f044f-72be-4dec-9c40-e9673676300f.png">
+
+<img width="498" alt="Scores_By_Spending_Per_Student" src="https://user-images.githubusercontent.com/104729703/177068184-f07fe4db-0528-4e8a-a659-21649eaeb1ab.png">
+
+-The omission of freshman grades has no impact on the score outcomes by spending per student. The above tables are identical and represent the same analysis run before and after the omission of Thomas High School freshman data. Because the freshman are still counted in the total number of students, the outcome remains the same. If the freshman were omitted from this count, the data could be skewed to imply that Thomas High School spends more per student than it actually does.
 
 <img width="637" alt="Scores_By_School_Size_Initial" src="https://user-images.githubusercontent.com/104729703/177033727-09920145-d42e-417b-8a5c-d9a6dd49736b.png">
 <img width="449" alt="Scores_By_School_Size" src="https://user-images.githubusercontent.com/104729703/177033721-d355f2a5-f5bc-41f9-ab2a-e2da974ef970.png">
-- Scores by school size
 
+- Scores by school size are also not impacted. The above tables depict score outcomes by school size, first with the Thomas High School freshman data included, and then without. The data is unchanged because the freshman are included in the total school district population count. Removing them from this count would pontially move Thomas high school into a "smaller" school size bracket and further skew the analysis.
 
+<img width="577" alt="image" src="https://user-images.githubusercontent.com/104729703/177069044-82f210f3-777b-4b62-b7a0-4332afe70421.png">
 <img width="428" alt="Scores_By_School_Type" src="https://user-images.githubusercontent.com/104729703/177033748-d54db703-9725-4cc4-aba8-d3486db89ab1.png">
-- Scores by school type
 
+- Scores by school type also remain un-impacted by the omission of Thomas High School freshman math and reading scores, as they are calculated using the total student count
 
 # Summary: 
-Four changes that have become evident since the replacement of the data are: 
+Four changes that have become evident since the replacement of the Thomas High School freshman grade outcomes with "Not a Number" signifiers are as follows:
 
-Summarize four changes in the updated school district analysis after reading and math scores for the ninth grade at Thomas High School have been replaced with NaNs.
-
-Deliverable 3 Requirements
-Structure, Organization, and Formatting (7 points)
-The written analysis has the following structure, organization, and formatting:
-
-There is a title, and there are multiple sections (2 pt).
-Each section has a heading and subheading (3 pt).
-Links to images are working, and code is formatted and displayed correctly (2 pt).
-Analysis (18 points)
-The written analysis has the following:
-
-Overview of the school district analysis:
-The purpose of this analysis is well defined (3 pt).
-Results:
-There is a bulleted list that addresses how each of the seven school district metrics was affected by the changes in the data (10 pt).
-Summary:
-There is a statement summarizing four changes to the school district analysis after reading and math scores have been replaced (5 pt).
-
-
-
-Upload the following to your School_District_Analysis GitHub repository:
-
-The PyCitySchools_Challenge.ipynb file.
-The Resources folder with the schools_complete.csv and students_complete.csv files.
-An updated README.md that has your written analysis.
+1. Scoring by grade level has the potential to rank Thomas High School last for 9th graders.
+2. The math score percentages within the school data comparison decrease for Thomas High School as a whole when their ninth graders are counted as individuals with non-numeric data for their scores.
+3. The reading score percentages within the school data comparison decrease for Thomas High School as a whole when their ninth graders are counted as individuals with non-numeric data for their scores.
+4. The combined math and reading score percentages within the school data comparison decrease for Thomas High School as a whole when their ninth graders are counted as individuals with non-numeric data for their scores. 
